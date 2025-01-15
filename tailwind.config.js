@@ -5,6 +5,8 @@
       colors: {
         dim: "#383838",
         extra: "#272729",
+        lightblue: "#6bc8ed",
+        hoverLightblue:"#1f6bb6"
       },
     },
   },

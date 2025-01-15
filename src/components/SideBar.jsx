@@ -7,17 +7,18 @@ function SideBar() {
             <div className='sidebar_main px-8 pt-2 scroll-smooth relative dark:bg-extra dark:text-gray-200'>
                 <ul className='py-2 mt-2 mb-2'>
                     <li>
-                        <img src="https://dashboard.backplain.com/assets/backplain-icon-light-mode-68839fbc.svg" alt="" />
+                        <img src="https://logon-int.com/wp-content/uploads/2019/02/Flexera_no-tagline_RGB_full-color.png" alt="" />
                     </li>
+                    {/* <a className="flexera-logo" href="/"><span className="expanded-logo"><img src="assets/caae5a922ab9a311d7f3453f668eb969.png" alt="Flexera logo"/></span><img src="assets/df076dbd8a493eb23c46b2d682be31c8.png" alt="Flexera logo"/><span className="expanded-logo"><img src="assets/06c3c03ed4f97e5d4050775425053132.png" alt="Flexera logo"/></span></a> */}
                 </ul>
                 <ul>
-                    <div className='text-black bg-green-200 hover:bg-green-500 w-full px-8 py-2 flex justify-between rounded-md mb-2'>
+                    <div className='text-black  bg-lightblue  hover:bg-hoverLightblue w-full px-8 py-2 flex justify-between rounded-md mb-2'>
                         <button >Chat</button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                         </svg>
                     </div>
-                    <div className='text-black bg-green-200  hover:bg-green-500 w-full px-8 py-2 flex justify-between rounded-md mb-2'>
+                    <div className='text-black bg-lightblue  hover:bg-hoverLightblue w-full px-8 py-2 flex justify-between rounded-md mb-2'>
                         <button >Chat</button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
@@ -43,7 +44,7 @@ function SideBar() {
                     </li>
                 </ul>
                 <div className='flex justify-center items-center w-48 py-4 px-2 bg-gray-100 mt-4 ml-1 dark:bg-dim absolute bottom-10'>
-                    <button type="button" className="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Invite Friends
+                    <button type="button" className="focus:outline-none text-black bg-lightblue  hover:bg-hoverLightblue  focus:ring-4 focus:ring-lightblue  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Invite Friends
                     </button>
                 </div>
             </div>
